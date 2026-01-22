@@ -39,7 +39,7 @@ div.post {
          color: black;
          border-radius: 20px;
          width: 80%;
-         background-image: linear-gradient(white, rgba(128,128,128,0.8));
+         background-image: linear-gradient(rgba(256,256,256,0.9), rgba(200,200,200,0.8));
          box-shadow: 0 0 15px 7px #fff,  /* inner white */
                      0 0 25px 15px #0af, /* blue */
                      0 0 45px 22px #00f;
