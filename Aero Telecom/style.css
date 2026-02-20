@@ -25,8 +25,13 @@ a.navbar {
          text-decoration: none;
 }
 
+div.fadeOnLoad {
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            }
+            
 div.flexgrid { 
-  width: 70%;
+  width: 50%;
   display: inline-block;
   float: left;
 }
@@ -39,13 +44,15 @@ div.post {
          color: black;
          border-radius: 20px;
          width: 80%;
-         background-image: linear-gradient(rgba(256,256,256,0.9), rgba(200,200,200,0.8));
+         background-image: linear-gradient(rgba(240,256,256,0.95), rgba(190,200,200,0.8));
          box-shadow: 0 0 15px 7px #fff,  /* inner white */
                      0 0 25px 15px #0af, /* blue */
                      0 0 45px 22px #00f;
 }
            
-div.footer { padding: 20px;}
+div.footer { 
+        font-size: 18px;
+        }
              
 div.link { height: 100%;
            width: 100%;
@@ -57,22 +64,16 @@ table.navbar{
         width: 100%;
         font-size: 30px;
         text-align: center;
-        background-image: linear-gradient(wheat, white);
+        background-image: linear-gradient(rgba(240,255,255,0.95), rgba(190,200,200,0.8));
         border-radius: 10px;
-        padding: 2%;
 }
 
 td { width: 20%;
-     border-radius: 20px;
+     border-radius: 10px;
      }
 
-td.navbar {
-	background-image: linear-gradient(wheat, white);
-   box-shadow: 0 0 15px 7px #fff,  /* inner white */
-               0 0 25px 15px #0af, /* blue */
-               0 0 45px 22px #00f;
-}
-td.navbar:hover {background-image: linear-gradient(wheat, blue);}
+
+td.navbar:hover {background-image: linear-gradient(rgba(255,255,255,0.9), rgba(0,128,255,0.8));}
 td.navbar:active {background-image: linear-gradient(wheat, #f0f);}
 
 .center {
