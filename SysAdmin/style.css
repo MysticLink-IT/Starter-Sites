@@ -1,0 +1,152 @@
+@keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+}
+
+.button {
+  background-color: grey;
+  text-shadow: 3px 3px #484;
+  color: white;
+  width: 25%;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+.button:active {
+  background-color: #062;
+  color: black;
+}
+.center {
+  margin: auto;
+  width: auto;
+  text-align: center;
+  box-shadow: 8px 6px #00876a;
+}
+
+.shadow {
+  background-image: linear-gradient(#222, #000);
+}
+html {scroll-behavior: smooth;}
+
+body {
+  background-color: #15cfa6;
+  background-image: url("wallpaper.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: monospace;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #FFF;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: blue;
+}
+a.footer {
+  color: #15cfa6;
+}
+a.footer:hover {
+  box-shadow: 0 0 15px 7px #0ff,  /* inner white */
+              0 0 25px 15px #f0f, /* middle magenta */
+              0 0 45px 22px #00f;
+}
+a.navlink {
+  color: #FFF;
+  text-decoration: none;
+}
+h2 {
+  text-shadow: 3px 3px #00876a;
+  color: #AAA;
+  font-size: 44px;
+  width: 100%;
+  text-align:center;
+}
+h3 {
+  color: #FFF;
+  font-size: 22px;
+  width: 100%;
+  text-align:center;
+}
+h3.page {
+  color: #000;
+  font-size: 22px;
+  width: 100%;
+  text-align:center;
+}
+h4 {
+  color: #000;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+div {
+  background-color: #000;
+  color: #9cffe9;
+  font: bold;
+  padding: 20px;
+}
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+div.flexgrid {
+  width: 240px;
+  color: #FFF;
+  /*border: 2px solid green;*/
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+div.flexbutton {
+  width: 240px;
+  /*border: 2px solid green;*/
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+div.flexbutton:hover{
+  background-image: linear-gradient(#aaf, white);
+  box-shadow: 0 0 15px 7px #0ff,  /* inner white */
+              0 0 25px 15px #f0f, /* middle magenta */
+              0 0 45px 22px #00f;
+}
+div.heading {
+  width: auto;
+  background-color: #15cfa6;
+  padding: 2%;
+}
+div.pagediv {
+    width: auto;
+    background-color: #FFF;
+    color: #102;
+    text-align: left;
+}
+img {
+  width:auto;
+  height:auto;
+  margin: auto;
+  display: inline-block;
+}
+p {
+  font-size: 18px;
+  font-style: bold;
+}
+p.copyright {
+  font-size: 10px;
+}
